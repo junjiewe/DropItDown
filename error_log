@@ -1,0 +1,1 @@
+[12-Aug-2018 21:08:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/junjiewe/public_html/DropSomethingDown/activatenewemail.php:33) in /home/junjiewe/public_html/DropSomethingDown/activatenewemail.php on line 53

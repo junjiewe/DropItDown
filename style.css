@@ -1,0 +1,88 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('photo/nav.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Arvo', serif !important;
+}
+
+
+/*navbar*/
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: #fff !important;
+    font-size: 1.7em;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding-left: 20px;
+}
+ .navbar li a:hover{
+    color: aqua !important;
+}
+
+.navbar li a{
+    color: #fff;
+}
+
+.nav-link {
+    margin-right: 20px;
+}
+
+/*jumbotron*/
+.jumbotron {
+    background-color: transparent !important;
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-size: 1.2em;
+    margin-top: 65px;
+    color: White;
+    line-height: 30px;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.jumbotron p {
+    padding-top: 10px;
+}
+
+/*buttons*/
+.signup{
+    margin-top: 40px;
+}
+
+.btncolor{
+    background-color: rgba(152,251,152,0.7);
+}
+
+.btncolor:hover{
+    background-color: rgb(152,251,152);
+}
+
+#loginspc {
+    color: deepskyblue;
+}
+
+/*footer*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.active a{
+    color: white !important;
+}
